@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rain",
+    "durationSeconds": 53.11020833333333,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2549334,
+    "rms": 0.0922,
+    "peak": 0.7,
+    "seamStep": 2737,
+    "internalStep99Percentile": 8820.28,
+    "sha256": "8781a61a01a1ce4a05216aabd00950f509af301a3a9e2977d93b164d748b6912",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS/peak normalization; 16-bit PCM"
+  },
+  {
+    "id": "airplane",
+    "durationSeconds": 58.26358333333334,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2796696,
+    "rms": 0.12,
+    "peak": 0.4243,
+    "seamStep": 301,
+    "internalStep99Percentile": 548.0,
+    "sha256": "24356ae1990255a50b2e05926e8bb2b836667808e5f937a09f2614d118859f1a",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS/peak normalization; 16-bit PCM"
+  },
+  {
+    "id": "birds",
+    "durationSeconds": 60.0,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2880044,
+    "rms": 0.0239,
+    "peak": 0.7,
+    "seamStep": 30,
+    "internalStep99Percentile": 454.0,
+    "sha256": "b547648c9912ba2e45b299802a087de26f9d31f5a02c64470e65bafced9997f4",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS/peak normalization; 16-bit PCM"
+  },
+  {
+    "id": "fire",
+    "durationSeconds": 60.0,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2880044,
+    "rms": 0.1164,
+    "peak": 0.5614,
+    "seamStep": 56,
+    "internalStep99Percentile": 737.0,
+    "sha256": "0f02bfde6aa5913d4c157eecd4f70e91532d3dc899e07b4fed4e435c99279e32",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS normalization with soft peak limiting for fire/cafe; 16-bit PCM"
+  },
+  {
+    "id": "cafe",
+    "durationSeconds": 60.0,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2880044,
+    "rms": 0.0878,
+    "peak": 0.6739,
+    "seamStep": 998,
+    "internalStep99Percentile": 4276.0,
+    "sha256": "292b561718072cdb0d690bc4b69530016db94416a3a89e6b299a69ef33ba7983",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS normalization with soft peak limiting for fire/cafe; 16-bit PCM"
+  },
+  {
+    "id": "noise",
+    "durationSeconds": 30.0,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 1440044,
+    "rms": 0.05,
+    "peak": 0.2376,
+    "seamStep": 2497,
+    "internalStep99Percentile": 5967.0,
+    "sha256": "289bdd858068f3dff8e9f990fd32bf1be50e07675b61a56cc2afef72f5c8670d",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS normalization with soft peak limiting for fire/cafe; 16-bit PCM"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "elmag",
+    "url": "https://radio.elmag.me/kids.mp3",
+    "status": 200,
+    "finalUrl": "https://radio.elmag.me/kids.mp3",
+    "contentType": "audio/mpeg",
+    "name": "no name",
+    "bitrate": "128",
+    "bytesRead": 4096
+  },
+  {
+    "id": "m-kids",
+    "url": "https://team-data.ba:9050/play?sid=1",
+    "status": 200,
+    "finalUrl": "https://team-data.ba:9050/play?sid=1",
+    "contentType": "audio/mpeg",
+    "name": "Radio M Kids",
+    "bitrate": "128",
+    "bytesRead": 4096
+  },
+  {
+    "id": "rb-kids",
+    "url": "https://stream.zeno.fm/1yrzq1dp9whvv",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "glas-page",
+    "url": "https://www.glasnade.com/decji-radio/",
+    "status": 200,
+    "finalUrl": "https://www.glasnade.com/decji-radio/",
+    "contentType": "text/html; charset=UTF-8",
+    "name": null,
+    "bitrate": null,
+    "matches": []
+  },
+  {
+    "id": "rb-digital",
+    "url": "https://ritambalkana.com/digital/",
+    "status": 200,
+    "finalUrl": "https://ritambalkana.com/digital/",
+    "contentType": "text/html; charset=UTF-8",
+    "name": null,
+    "bitrate": null,
+    "matches": []
+  },
+  {
+    "id": "balkan-js",
+    "url": "https://radiobalkan.live/main.66b65a1295ae70ab.js",
+    "status": 200,
+    "finalUrl": "https://radiobalkan.live/main.66b65a1295ae70ab.js",
+    "contentType": "application/javascript",
+    "name": null,
+    "bitrate": null,
+    "matches": [
+      "Node.ELEMENT_NODE&&this.stripCustomNsAttrs(l),l=l.nextSibling}}const pu=/^(?:(?:https?|mailto|ftp|tel|file|sms):|[^&:/?#]*(?:[/?#]|$))/gi,sd=/^data:(?:image\\/(?:bmp|gif|jpeg|jpg|png|tiff|webp)|video\\/(?:mpeg|mp4|ogg|webm)|audio\\/(?:mp3|oga|ogg|opus));base64,[a-z0-9+\\/]+=*$/i;function ja(t){return(t=String(t)).match(pu)||t.match(sd)?t:\"unsafe:\"+t}function _o(t){const n={};for(const s of t.split(\",\"))n["
+    ]
+  },
+  {
+    "id": "juhuhu",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/HRT_JUHUHU.mp3",
+    "status": 200,
+    "finalUrl": "https://25443.live.streamtheworld.com:443/HRT_JUHUHU.mp3",
+    "contentType": "audio/mpeg",
+    "bytesRead": 4096
+  }
+]

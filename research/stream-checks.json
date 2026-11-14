@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://naxidigital-kids128ssl.streaming.rs:8052/;stream.nsv",
+    "checkedOn": "2026-11-14",
+    "status": 200,
+    "finalUrl": "https://naxidigital-kids128ssl.streaming.rs:8052/;stream.nsv",
+    "contentType": "audio/mpeg",
+    "cors": null,
+    "icyName": "NAXI KIDS RADIO (NAXI,Belgrade,Serbia, NAXI,Beograd,Srbija) - 128k",
+    "icyBitrate": "128",
+    "sampleBytes": 1024
+  },
+  {
+    "url": "https://relay1.social3.hr/radio/8140/",
+    "checkedOn": "2026-11-14",
+    "status": 200,
+    "finalUrl": "https://relay1.social3.hr/radio/8140/",
+    "contentType": "text/html; charset=UTF-8",
+    "cors": "https://example.com",
+    "icyName": null,
+    "icyBitrate": null,
+    "sampleBytes": 1024
+  },
+  {
+    "url": "https://radio-stream.cmc.com.hr:9019/stream",
+    "checkedOn": "2026-11-14",
+    "status": 200,
+    "finalUrl": "https://radio-stream.cmc.com.hr:9019/stream",
+    "contentType": "audio/mpeg",
+    "cors": null,
+    "icyName": "CMC Kids",
+    "icyBitrate": "192",
+    "sampleBytes": 1024
+  },
+  {
+    "url": "https://stream.radios.rs:9022/;%2A.mp3",
+    "checkedOn": "2026-11-14",
+    "status": 200,
+    "finalUrl": "https://stream.radios.rs:9022/;%2A.mp3",
+    "contentType": "audio/aacp",
+    "cors": "*",
+    "icyName": "Radio S Kids",
+    "icyBitrate": "36",
+    "sampleBytes": 1024
+  },
+  {
+    "url": "https://relay1.social3.hr/radio/8140/radio.mp3?&_ic2=1",
+    "checkedOn": "2026-11-14",
+    "status": 200,
+    "finalUrl": "https://relay1.social3.hr/radio/8140/radio.mp3?&_ic2=1",
+    "contentType": "audio/mpeg",
+    "cors": "https://example.com",
+    "icyName": "bravo! KIDS",
+    "icyBitrate": "128",
+    "sampleBytes": 1024
+  }
+]

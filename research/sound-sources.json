@@ -1,0 +1,44 @@
+[
+  {
+    "id": "rain",
+    "source": "https://freesound.org/people/joedeshon/sounds/430765/",
+    "downloadUrl": "https://cdn.freesound.org/previews/430/430765_1218676-hq.mp3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 1500000
+  },
+  {
+    "id": "birds",
+    "source": "https://freesound.org/people/resaural/sounds/634511/",
+    "downloadUrl": "https://cdn.freesound.org/previews/634/634511_9662992-hq.mp3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 9838752
+  },
+  {
+    "id": "airplane",
+    "source": "https://freesound.org/people/RyanKingArt/sounds/702132/",
+    "downloadUrl": "https://cdn.freesound.org/previews/702/702132_11069322-hq.mp3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 1289087
+  },
+  {
+    "id": "fire",
+    "author": "HenKonen",
+    "source": "https://freesound.org/people/HenKonen/sounds/797669/",
+    "downloadUrl": "https://cdn.freesound.org/previews/797/797669_10938187-hq.mp3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 2200000
+  },
+  {
+    "id": "cafe",
+    "author": "evsecrets",
+    "source": "https://freesound.org/people/evsecrets/sounds/332271/",
+    "downloadUrl": "https://cdn.freesound.org/previews/332/332271_2367065-hq.mp3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 2200000
+  }
+]

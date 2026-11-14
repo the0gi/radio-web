@@ -1,0 +1,200 @@
+{
+  "researchedOn": "2026-11-14",
+  "stations": [
+    {
+      "id": "naxi-kids",
+      "name": "Naxi Kids Radio",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "kind": "dedicated-kids-station",
+      "website": "https://www.naxi.rs/kids",
+      "streamUrl": "https://naxidigital-kids128ssl.streaming.rs:8052/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": false,
+      "notes": "Children’s songs; official playlist includes Kolibri, Dragan Laković and regional children’s performers.",
+      "sources": [
+        "https://www.naxi.rs/kids"
+      ],
+      "researchedOn": "2026-11-14"
+    },
+    {
+      "id": "radio-s-kids",
+      "name": "Radio S Kids",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "kind": "dedicated-kids-station",
+      "website": "https://radios.rs/digitalni-radio/7/radio-s-kids",
+      "streamUrl": "https://stream.radios.rs:9022/;%2A.mp3",
+      "contentType": "audio/aacp",
+      "bitrateKbps": 36,
+      "streamDiscovery": "directory-discovery-identity-confirmed-by-stream",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": false,
+      "notes": "Dedicated children’s music channel. Official page returned 403; stream identifies itself as Radio S Kids.",
+      "sources": [
+        "https://radios.rs/digitalni-radio/7/radio-s-kids",
+        "https://www.radios.rs/blogs/3/lifestyle/520/slusaj-radio-s-i-na-radiofm.rs",
+        "https://satelitskiforum.com/sf/forum/index.php?pageNo=9&thread%2F14221-web-radio-kanali%2F="
+      ],
+      "researchedOn": "2026-11-14"
+    },
+    {
+      "id": "bravo-kids",
+      "name": "bravo! KIDS",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "kind": "dedicated-kids-station",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8140/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": false,
+      "notes": "Dedicated kids channel; music and children’s content. Repertoire can include international songs.",
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=1",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ],
+      "researchedOn": "2026-11-14"
+    },
+    {
+      "id": "cmc-kids",
+      "name": "CMC Kids",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "kind": "dedicated-kids-station",
+      "website": "https://radio.cmc.com.hr/#kids",
+      "streamUrl": "https://radio-stream.cmc.com.hr:9019/stream",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 192,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": false,
+      "notes": "Children’s hits; part of the CMC thematic radio network.",
+      "sources": [
+        "https://radio.cmc.com.hr/#kids"
+      ],
+      "researchedOn": "2026-11-14"
+    },
+    {
+      "id": "juhuhu",
+      "name": "Juhuhu Radio",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "kind": "dedicated-kids-station",
+      "website": "https://juhuhu.hrt.hr/",
+      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/HRT_JUHUHU.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player-station-and-provider-resolver",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "HRT preschool service with music, stories and bedtime programming. Public Triton resolver for official station identifier returns a direct MP3 stream.",
+      "sources": [
+        "https://juhuhu.hrt.hr/",
+        "https://juhuhu.hrt.hr/radio/1/slusaj/",
+        "https://magazin.hrt.hr/zabava/juhuhu-radio-novi-hrt-ov-radijski-program-za-djecu-12007034",
+        "https://help.tritondigital.com/docs/livestream-redirect",
+        "https://playerservices.streamtheworld.com/api/livestream?version=1.9&station=HRT_JUHUHU"
+      ],
+      "researchedOn": "2026-11-14",
+      "integration": {
+        "provider": "Triton Digital TDSdk",
+        "station": "HRT_JUHUHU",
+        "sdkUrl": "https://sdk.listenlive.co/web/2.9/td-sdk.min.js"
+      },
+      "browserVerification": {
+        "browser": "Codex in-app browser",
+        "result": "playing-event-received",
+        "checkedOn": "2026-11-14",
+        "physicalIPhoneVerified": false
+      }
+    },
+    {
+      "id": "radio-m-kids",
+      "name": "Radio M Kids",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "kind": "dedicated-kids-station",
+      "website": "https://radiom.ba/bs/radio-m-kids",
+      "streamUrl": "https://team-data.ba:9050/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Official English player exposes the direct Kids stream; HTTP audio and stream identity verified.",
+      "sources": [
+        "https://radiom.ba/bs/radio-m-kids",
+        "https://radiom.ba/bs/o-nama",
+        "https://radiom.ba/en/radio-m-kids"
+      ],
+      "researchedOn": "2026-11-14",
+      "browserVerification": {
+        "browser": "Codex in-app browser",
+        "result": "playing-event-received",
+        "checkedOn": "2026-11-14",
+        "physicalIPhoneVerified": false
+      }
+    },
+    {
+      "id": "elmag-kids",
+      "name": "Elmag Kids",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "kind": "dedicated-kids-station",
+      "website": "https://www.elmag.me/elmag-radio/elmag-kids/",
+      "streamUrl": "https://radio.elmag.me/kids.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Dedicated Kids channel listed by Elmag. HTTP returns MP3 audio; generic icy-name, so channel identity comes from official player page. Full repertoire not audited.",
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-kids/"
+      ],
+      "researchedOn": "2026-11-14",
+      "browserVerification": {
+        "browser": "Codex in-app browser",
+        "result": "playing-event-received",
+        "checkedOn": "2026-11-14",
+        "physicalIPhoneVerified": false
+      }
+    }
+  ],
+  "scheduledPrograms": [
+    {
+      "id": "rcg-radoznalica",
+      "name": "Radio Crne Gore — Radoznalica",
+      "countryCode": "ME",
+      "kind": "scheduled-childrens-program",
+      "website": "https://rtcg.me/radio/programska-sema.html",
+      "streamUrl": null,
+      "includeInKidsOnlyCatalog": false,
+      "notes": "Official schedule lists Sunday 12:05–14:00; check current week before displaying. General radio outside the show.",
+      "sources": [
+        "https://rtcg.me/radio/programska-sema.html",
+        "https://mneplay.me/video/556826/listing/258/radoznalica-kako-bezbjedno-koristiti-vjestacku-inteligenciju"
+      ]
+    },
+    {
+      "id": "elmag-vrteska",
+      "name": "Elmag Radio — Elmagova vrteška",
+      "countryCode": "ME",
+      "kind": "scheduled-childrens-program",
+      "website": "https://www.elmag.me/",
+      "streamUrl": null,
+      "includeInKidsOnlyCatalog": false,
+      "notes": "Official website lists 08:00–08:30 in its schedule; confirm day and current recurrence. General radio outside the show.",
+      "sources": [
+        "https://www.elmag.me/"
+      ]
+    }
+  ]
+}
