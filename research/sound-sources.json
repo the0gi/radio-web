@@ -40,5 +40,31 @@
     "license": "CC0-1.0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "bytes": 2200000
+  },
+  {
+    "id": "waves",
+    "author": "SamsterBirdies",
+    "title": "Calm ocean waves",
+    "source": "https://freesound.org/people/SamsterBirdies/sounds/578524/",
+    "downloadUrl": "https://oceansoundsforsleeping.com/audio/waves.mp3?v=20260417",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 4107072,
+    "sourceSha256": "fd505dbd43cb1c3508f884279bf5d3e060bb14f2bc3d9b4cce334eb7a75b5d7f",
+    "excerptStartSeconds": 8,
+    "excerptEndSeconds": 72
+  },
+  {
+    "id": "nature",
+    "author": "Joseph SARDIN",
+    "title": "Forest (0100)",
+    "source": "https://bigsoundbank.com/forest-s0100.html",
+    "downloadUrl": "https://bigsoundbank.com/UPLOAD/mp3/0100.mp3",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 1307883,
+    "sourceSha256": "c6c04cce07cbdb11ec8732ca28035213a5bcbcb5d3638112b71d0ed90edeabec",
+    "excerptStartSeconds": 8,
+    "excerptEndSeconds": 54.35483333333333
   }
 ]

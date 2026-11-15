@@ -1,0 +1,544 @@
+{
+  "stations": [
+    {
+      "id": "naxi-kids",
+      "name": "Naxi Kids Radio",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "kind": "dedicated-kids-station",
+      "website": "https://www.naxi.rs/kids",
+      "streamUrl": "https://naxidigital-kids128ssl.streaming.rs:8052/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Children’s songs; official playlist includes Kolibri, Dragan Laković and regional children’s performers.",
+      "sources": [
+        "https://www.naxi.rs/kids"
+      ],
+      "researchedOn": "2026-11-14",
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.492313+00:00"
+    },
+    {
+      "id": "radio-s-kids",
+      "name": "Radio S Kids",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "kind": "dedicated-kids-station",
+      "website": "https://radios.rs/digitalni-radio/7/radio-s-kids",
+      "streamUrl": "https://stream.radios.rs:9022/;%2A.mp3",
+      "contentType": "audio/aacp",
+      "bitrateKbps": 36,
+      "streamDiscovery": "directory-discovery-identity-confirmed-by-stream",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Dedicated children’s music channel. Official page returned 403; stream identifies itself as Radio S Kids.",
+      "sources": [
+        "https://radios.rs/digitalni-radio/7/radio-s-kids",
+        "https://www.radios.rs/blogs/3/lifestyle/520/slusaj-radio-s-i-na-radiofm.rs",
+        "https://satelitskiforum.com/sf/forum/index.php?pageNo=9&thread%2F14221-web-radio-kanali%2F="
+      ],
+      "researchedOn": "2026-11-14",
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.492556+00:00"
+    },
+    {
+      "id": "bravo-kids",
+      "name": "bravo! KIDS",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "kind": "dedicated-kids-station",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8140/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Dedicated kids channel; music and children’s content. Repertoire can include international songs.",
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=1",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ],
+      "researchedOn": "2026-11-14",
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.492734+00:00"
+    },
+    {
+      "id": "cmc-kids",
+      "name": "CMC Kids",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "kind": "dedicated-kids-station",
+      "website": "https://radio.cmc.com.hr/#kids",
+      "streamUrl": "https://radio-stream.cmc.com.hr:9019/stream",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 192,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Children’s hits; part of the CMC thematic radio network.",
+      "sources": [
+        "https://radio.cmc.com.hr/#kids"
+      ],
+      "researchedOn": "2026-11-14",
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.565160+00:00"
+    },
+    {
+      "id": "juhuhu",
+      "name": "Juhuhu Radio",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "kind": "dedicated-kids-station",
+      "website": "https://juhuhu.hrt.hr/",
+      "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/HRT_JUHUHU.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player-station-and-provider-resolver",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "HRT preschool service with music, stories and bedtime programming. Public Triton resolver for official station identifier returns a direct MP3 stream.",
+      "sources": [
+        "https://juhuhu.hrt.hr/",
+        "https://juhuhu.hrt.hr/radio/1/slusaj/",
+        "https://magazin.hrt.hr/zabava/juhuhu-radio-novi-hrt-ov-radijski-program-za-djecu-12007034",
+        "https://help.tritondigital.com/docs/livestream-redirect",
+        "https://playerservices.streamtheworld.com/api/livestream?version=1.9&station=HRT_JUHUHU"
+      ],
+      "researchedOn": "2026-11-14",
+      "integration": {
+        "provider": "Triton Digital TDSdk",
+        "station": "HRT_JUHUHU",
+        "sdkUrl": "https://sdk.listenlive.co/web/2.9/td-sdk.min.js"
+      },
+      "browserVerification": {
+        "browser": "Codex in-app browser",
+        "result": "playing-event-received",
+        "checkedOn": "2026-11-14",
+        "physicalIPhoneVerified": false
+      },
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.621474+00:00"
+    },
+    {
+      "id": "radio-m-kids",
+      "name": "Radio M Kids",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "kind": "dedicated-kids-station",
+      "website": "https://radiom.ba/bs/radio-m-kids",
+      "streamUrl": "https://team-data.ba:9050/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Official English player exposes the direct Kids stream; HTTP audio and stream identity verified.",
+      "sources": [
+        "https://radiom.ba/bs/radio-m-kids",
+        "https://radiom.ba/bs/o-nama",
+        "https://radiom.ba/en/radio-m-kids"
+      ],
+      "researchedOn": "2026-11-14",
+      "browserVerification": {
+        "browser": "Codex in-app browser",
+        "result": "playing-event-received",
+        "checkedOn": "2026-11-14",
+        "physicalIPhoneVerified": false
+      },
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.671721+00:00"
+    },
+    {
+      "id": "elmag-kids",
+      "name": "Elmag Kids",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "kind": "dedicated-kids-station",
+      "website": "https://www.elmag.me/elmag-radio/elmag-kids/",
+      "streamUrl": "https://radio.elmag.me/kids.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "streamDiscovery": "official-player",
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "notes": "Dedicated Kids channel listed by Elmag. HTTP returns MP3 audio; generic icy-name, so channel identity comes from official player page. Full repertoire not audited.",
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-kids/"
+      ],
+      "researchedOn": "2026-11-14",
+      "browserVerification": {
+        "browser": "Codex in-app browser",
+        "result": "playing-event-received",
+        "checkedOn": "2026-11-14",
+        "physicalIPhoneVerified": false
+      },
+      "category": "Kids & family",
+      "browserPlaybackCheckedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.893982+00:00"
+    },
+    {
+      "id": "naxi-radio",
+      "name": "Naxi Radio",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Pop",
+      "website": "https://www.naxi.rs/live",
+      "streamUrl": "https://naxi128ssl.streaming.rs:9152/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/live"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.922484+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "naxi-rock",
+      "name": "Naxi Rock",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Rock",
+      "website": "https://www.naxi.rs/rock",
+      "streamUrl": "https://naxidigital-rock128ssl.streaming.rs:8182/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/rock"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:21.972613+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "naxi-jazz",
+      "name": "Naxi Jazz",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Jazz",
+      "website": "https://www.naxi.rs/jazz",
+      "streamUrl": "https://naxidigital-jazz128ssl.streaming.rs:8172/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/jazz"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.025994+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "naxi-80e",
+      "name": "Naxi 80s",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Oldies",
+      "website": "https://www.naxi.rs/80e",
+      "streamUrl": "https://naxidigital-80s128ssl.streaming.rs:8042/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/80e"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.083190+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "elmag-radio",
+      "name": "Elmag Radio",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Variety",
+      "website": "https://www.elmag.me/elmag-radio/elmag-live/",
+      "streamUrl": "https://radio.elmag.me/elmag.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-live/"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.143839+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "mag-radio",
+      "name": "Mag Radio",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Pop",
+      "website": "https://www.elmag.me/elmag-radio/mag-live/",
+      "streamUrl": "https://radio.elmag.me/mag.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/mag-live/"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.415934+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "elmag-jazz",
+      "name": "Elmag Jazz",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Jazz",
+      "website": "https://www.elmag.me/elmag-radio/elmag-jazz/",
+      "streamUrl": "https://radio.elmag.me/jazz.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-jazz/"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.480534+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "elmag-poprock",
+      "name": "Elmag Pop Rock Ex-Yu",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Rock",
+      "website": "https://www.elmag.me/elmag-radio/elmag-pop-rock-ex-yu/",
+      "streamUrl": "https://radio.elmag.me/poprock.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-pop-rock-ex-yu/"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.983316+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "bravo",
+      "name": "bravo!",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Pop",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8310/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 96,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=0",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:22.997646+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "bravo-lounge",
+      "name": "bravo! Lounge",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Chill",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8340/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=2",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.008754+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "bravo-gym",
+      "name": "bravo! Gym",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Dance",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8320/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=3",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.125520+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "bravo-icons",
+      "name": "bravo! Icons",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Oldies",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8330/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=4",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.136255+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "radio-m",
+      "name": "Radio M",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Variety",
+      "website": "https://radiom.ba/en/radio-m",
+      "streamUrl": "https://team-data.ba:9030/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.250991+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "radio-m-plus",
+      "name": "Radio M Plus",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Variety",
+      "website": "https://radiom.ba/en/radio-m-plus",
+      "streamUrl": "https://team-data.ba:10000/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m-plus"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.257739+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "otvoreni",
+      "name": "Otvoreni Radio",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Pop",
+      "website": "https://www.otvoreni.hr/",
+      "streamUrl": "https://stream.otvoreni.hr:443/otvoreni",
+      "contentType": "audio/aac",
+      "bitrateKbps": 48,
+      "sources": [
+        "https://www.otvoreni.hr/player/",
+        "https://www.otvoreni.hr/api/channels"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.514788+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "antena-zagreb",
+      "name": "Antena Zagreb",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Pop",
+      "website": "https://www.antenazagreb.hr/",
+      "streamUrl": "https://audio.social3.hr/listen/antena_aac/stream",
+      "contentType": "audio/aacp",
+      "bitrateKbps": 96,
+      "sources": [
+        "https://streaming.antenazagreb.hr/stream/player/player.html?stream=0",
+        "https://streaming.antenazagreb.hr/stream/player/src/player.js"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.525665+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "radio-m-ex-yu",
+      "name": "Radio M Ex-Yu",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Pop",
+      "website": "https://radiom.ba/en/radio-m-ex-yu",
+      "streamUrl": "https://team-data.ba:9034/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m-ex-yu"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.547532+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    },
+    {
+      "id": "radio-m-narodna",
+      "name": "Radio M Narodna",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Folk",
+      "website": "https://radiom.ba/en/radio-m-narodna",
+      "streamUrl": "https://team-data.ba:9036/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m-narodna"
+      ],
+      "verification": "audio-response-received",
+      "browserPlaybackVerified": true,
+      "researchedOn": "2026-11-15",
+      "lastCheckedAt": "2026-11-15T14:02:23.758514+00:00",
+      "browserPlaybackCheckedOn": "2026-11-15"
+    }
+  ],
+  "updatedOn": "2026-11-15"
+}

@@ -1,0 +1,35 @@
+/* Shared artwork geometry lets one cover travel from the mini player to the sheet. */
+.player-modal-backdrop .full-player{width:464px;padding:26px;max-height:calc(100vh - 32px);overscroll-behavior:contain;scrollbar-width:thin}
+.player-modal-backdrop .full-player header{margin-bottom:18px}
+.player-artwork{width:min(100%,400px);aspect-ratio:1;margin:0 auto;flex-shrink:0}
+.player-artwork>.station-art,.player-artwork>.sound-player-art,.player-artwork-flight>.station-art,.player-artwork-flight>.sound-player-art{width:100%;height:100%;max-width:none;aspect-ratio:1;margin:0;border-radius:22px}
+.player-artwork-flight{display:none;position:fixed;z-index:1002;pointer-events:none;transform-origin:top left;overflow:hidden;will-change:transform;border-radius:22px}
+/* Keep flight typography identical to its destination, outside the dialog tree. */
+.player-artwork-flight .naxi-word{font-size:70px}
+.player-artwork-flight .s-word{font-size:100px}
+.player-artwork-flight .bravo-word{font-size:60px}
+.player-artwork-flight .cmc-word{font-size:45px}
+.player-artwork-flight .station-word{font-size:34px}
+.player-artwork-flight .sound-symbol{width:108px;height:108px;border-radius:30px;margin:0}
+.player-artwork-flight .sound-symbol svg{width:62px;height:62px}
+.player-modal-backdrop .full-title{margin-top:22px}
+.player-modal-backdrop .full-title>div{min-width:0}
+.player-modal-backdrop .full-title h2{overflow-wrap:anywhere}
+.player-modal-backdrop .full-title button{flex-shrink:0}
+@media(max-width:600px){
+ .player-modal-backdrop{padding:12px}
+ .player-modal-backdrop .full-player{padding:20px;max-height:calc(100vh - 24px)}
+ .player-modal-backdrop .full-title{margin-top:18px}
+ .player-artwork-flight .station-word{font-size:32px}
+ .player-artwork-flight .art-caption{font-size:6px}
+}
+@media(max-height:740px){
+ .player-artwork{width:min(100%,400px,max(220px,calc(100vh - 340px)))}
+ .player-modal-backdrop .full-player header{margin-bottom:12px}
+ .player-modal-backdrop .playback-status{margin-top:16px;margin-bottom:14px}
+}
+@media(prefers-reduced-motion:reduce){
+ .player-artwork-flight{will-change:auto}
+}
+
+.player-modal-backdrop .full-player[style]{background-image:linear-gradient(rgba(var(--player-tint-rgb),.14),rgba(var(--player-tint-rgb),.14))}

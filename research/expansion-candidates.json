@@ -1,0 +1,267 @@
+{
+  "researchedOn": "2026-11-15",
+  "stations": [
+    {
+      "id": "naxi-radio",
+      "name": "Naxi Radio",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Pop",
+      "website": "https://www.naxi.rs/live",
+      "streamUrl": "https://naxi128ssl.streaming.rs:9152/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/live"
+      ]
+    },
+    {
+      "id": "naxi-rock",
+      "name": "Naxi Rock",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Rock",
+      "website": "https://www.naxi.rs/rock",
+      "streamUrl": "https://naxidigital-rock128ssl.streaming.rs:8182/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/rock"
+      ]
+    },
+    {
+      "id": "naxi-jazz",
+      "name": "Naxi Jazz",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Jazz",
+      "website": "https://www.naxi.rs/jazz",
+      "streamUrl": "https://naxidigital-jazz128ssl.streaming.rs:8172/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/jazz"
+      ]
+    },
+    {
+      "id": "naxi-80e",
+      "name": "Naxi 80s",
+      "countryCode": "RS",
+      "country": "Serbia",
+      "category": "Oldies",
+      "website": "https://www.naxi.rs/80e",
+      "streamUrl": "https://naxidigital-80s128ssl.streaming.rs:8042/;stream.nsv",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.naxi.rs/80e"
+      ]
+    },
+    {
+      "id": "elmag-radio",
+      "name": "Elmag Radio",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Variety",
+      "website": "https://www.elmag.me/elmag-radio/elmag-live/",
+      "streamUrl": "https://radio.elmag.me/elmag.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-live/"
+      ]
+    },
+    {
+      "id": "mag-radio",
+      "name": "Mag Radio",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Pop",
+      "website": "https://www.elmag.me/elmag-radio/mag-live/",
+      "streamUrl": "https://radio.elmag.me/mag.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/mag-live/"
+      ]
+    },
+    {
+      "id": "elmag-jazz",
+      "name": "Elmag Jazz",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Jazz",
+      "website": "https://www.elmag.me/elmag-radio/elmag-jazz/",
+      "streamUrl": "https://radio.elmag.me/jazz.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-jazz/"
+      ]
+    },
+    {
+      "id": "elmag-poprock",
+      "name": "Elmag Pop Rock Ex-Yu",
+      "countryCode": "ME",
+      "country": "Montenegro",
+      "category": "Rock",
+      "website": "https://www.elmag.me/elmag-radio/elmag-pop-rock-ex-yu/",
+      "streamUrl": "https://radio.elmag.me/poprock.mp3",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://www.elmag.me/elmag-radio/elmag-pop-rock-ex-yu/"
+      ]
+    },
+    {
+      "id": "bravo",
+      "name": "bravo!",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Pop",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8310/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 96,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=0",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ]
+    },
+    {
+      "id": "bravo-lounge",
+      "name": "bravo! Lounge",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Chill",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8340/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=2",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ]
+    },
+    {
+      "id": "bravo-gym",
+      "name": "bravo! Gym",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Dance",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8320/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=3",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ]
+    },
+    {
+      "id": "bravo-icons",
+      "name": "bravo! Icons",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Oldies",
+      "website": "https://bravo.hr/",
+      "streamUrl": "https://relay1.social3.hr/radio/8330/radio.mp3?&_ic2=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://bravo.hr/",
+        "https://streaming.bravo.hr/player/player.html?stream=4",
+        "https://streaming.bravo.hr/player/src/player.js"
+      ]
+    },
+    {
+      "id": "radio-m",
+      "name": "Radio M",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Variety",
+      "website": "https://radiom.ba/en/radio-m",
+      "streamUrl": "https://team-data.ba:9030/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m"
+      ]
+    },
+    {
+      "id": "radio-m-plus",
+      "name": "Radio M Plus",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Variety",
+      "website": "https://radiom.ba/en/radio-m-plus",
+      "streamUrl": "https://team-data.ba:10000/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m-plus"
+      ]
+    },
+    {
+      "id": "otvoreni",
+      "name": "Otvoreni Radio",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Pop",
+      "website": "https://www.otvoreni.hr/",
+      "streamUrl": "https://stream.otvoreni.hr:443/otvoreni",
+      "contentType": "audio/aac",
+      "bitrateKbps": 48,
+      "sources": [
+        "https://www.otvoreni.hr/player/",
+        "https://www.otvoreni.hr/api/channels"
+      ]
+    },
+    {
+      "id": "antena-zagreb",
+      "name": "Antena Zagreb",
+      "countryCode": "HR",
+      "country": "Croatia",
+      "category": "Pop",
+      "website": "https://www.antenazagreb.hr/",
+      "streamUrl": "https://audio.social3.hr/listen/antena_aac/stream",
+      "contentType": "audio/aacp",
+      "bitrateKbps": 96,
+      "sources": [
+        "https://streaming.antenazagreb.hr/stream/player/player.html?stream=0",
+        "https://streaming.antenazagreb.hr/stream/player/src/player.js"
+      ]
+    },
+    {
+      "id": "radio-m-ex-yu",
+      "name": "Radio M Ex-Yu",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Pop",
+      "website": "https://radiom.ba/en/radio-m-ex-yu",
+      "streamUrl": "https://team-data.ba:9034/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m-ex-yu"
+      ]
+    },
+    {
+      "id": "radio-m-narodna",
+      "name": "Radio M Narodna",
+      "countryCode": "BA",
+      "country": "Bosnia and Herzegovina",
+      "category": "Folk",
+      "website": "https://radiom.ba/en/radio-m-narodna",
+      "streamUrl": "https://team-data.ba:9036/play?sid=1",
+      "contentType": "audio/mpeg",
+      "bitrateKbps": 128,
+      "sources": [
+        "https://radiom.ba/en/radio-m-narodna"
+      ]
+    }
+  ]
+}

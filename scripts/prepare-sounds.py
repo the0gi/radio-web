@@ -1,6 +1,6 @@
 """Prepare downloaded CC0 previews as mono, 24 kHz PCM loops. Requires numpy and macOS afconvert.
 Usage: python prepare-sounds.py /absolute/path/to/source-directory
-Source directory: rain.mp3, fire.mp3, airplane.mp3, birds.mp3, cafe.mp3.
+Source directory: rain.mp3, fire.mp3, airplane.mp3, birds.mp3, cafe.mp3, waves.mp3, nature.mp3.
 """
 import sys,json,wave,subprocess,hashlib
 from pathlib import Path
@@ -8,7 +8,7 @@ import numpy as np
 root=Path(__file__).resolve().parents[1]; source=Path(sys.argv[1]); target=root/'public/sounds';target.mkdir(exist_ok=True)
 rate=24000; fade=rate*4; seconds=60
 report_path=root/'research/sound-loop-checks.json'
-keys=sys.argv[2:] or ['rain','fire','airplane','birds','cafe','noise']
+keys=sys.argv[2:] or ['rain','fire','airplane','birds','cafe','noise','waves','nature']
 report=[row for row in json.loads(report_path.read_text()) if row['id'] not in keys] if report_path.exists() else []
 for key in keys:
  if key=='noise':x=np.random.default_rng(20261114).normal(0,.13,rate*34);length=rate*34

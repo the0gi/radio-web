@@ -76,5 +76,31 @@
     "internalStep99Percentile": 5967.0,
     "sha256": "289bdd858068f3dff8e9f990fd32bf1be50e07675b61a56cc2afef72f5c8670d",
     "processing": "DC removal; 4-second equal-power wrap crossfade; RMS normalization with soft peak limiting for fire/cafe; 16-bit PCM"
+  },
+  {
+    "id": "waves",
+    "durationSeconds": 60.0,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2880044,
+    "rms": 0.0586,
+    "peak": 0.7,
+    "seamStep": 234,
+    "internalStep99Percentile": 2799.0,
+    "sha256": "f8eb0dfcdb7721586365e61bbfaf7e725eb4a5c011a320f720017eadea06893f",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS normalization with soft peak limiting for fire/cafe; 16-bit PCM"
+  },
+  {
+    "id": "nature",
+    "durationSeconds": 42.35483333333333,
+    "sampleRate": 24000,
+    "channels": 1,
+    "bytes": 2033076,
+    "rms": 0.0415,
+    "peak": 0.7,
+    "seamStep": 1268,
+    "internalStep99Percentile": 7611.0,
+    "sha256": "367f70207306b907e8d67a87b01f7ae375dbc86718805abdfcb09db98775ab41",
+    "processing": "DC removal; 4-second equal-power wrap crossfade; RMS normalization with soft peak limiting for fire/cafe; 16-bit PCM"
   }
 ]

@@ -29,3 +29,9 @@ TypeScript and production build passed. In-app browser tests confirmed Rain and 
 ### Player and sound revision
 
 The shared player sheet is portaled to the document body and opens from both mini players. Starting a sound automatically opens its sheet. Settings moved to the header, leaving three bottom destinations. Fireplace now uses HenKonen’s Sauna fireplace loop (797669); Café uses evsecrets’ Cafe ambient sound (332271), both CC0. RMS normalization plus soft peak limiting prevents transient peaks from suppressing the rest of these recordings. White noise RMS dropped from 0.12 to 0.05. Updated assets use a versioned URL to refresh phone caches. All six sample-boundary checks pass; listening preference still requires user feedback.
+
+### Waves and Nature addition (2026-11-15)
+
+Eight sounds now include Waves (SamsterBirdies, Freesound 578524, CC0) and Nature (Joseph SARDIN, BigSoundBank 0100, CC0). The Freesound CDN returned HTTP 403; Waves was obtained from a public copy whose source is identified on oceansoundsforsleeping.com/licensing/. The previously proposed priesjensen forest recording remained unavailable, so Nature uses the available BigSoundBank forest recording instead. The source page describes birds, insects and faint distant traffic.
+
+Both assets are self-hosted mono 24 kHz PCM WAV files, prepared with the existing four-second wrap crossfade and normalization. Waves loops for 60 seconds; Nature loops for approximately 42 seconds. Both boundary steps are below the within-recording 99th percentile. Starting either sound uses the existing persistent HTML audio element without opening a modal. The originally requested Rain, Fireplace, Birds and Café replacements remain pending; this addition does not replace those recordings.

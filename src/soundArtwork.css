@@ -1,0 +1,13 @@
+/* One palette follows a sound from its card through recents and both players. */
+.sound-card[style]{background-image:radial-gradient(ellipse at 0% 0%,rgba(var(--sound-color-rgb),.12),transparent 75%)}
+.sound-card .sound-symbol,.recent-sound .sound-symbol,.sound-player-art .sound-symbol,.mix-mini-icon[style]{background:rgb(var(--sound-light-rgb));color:var(--sound-ink)}
+.mix-mini-icon[style]{border-color:rgba(var(--sound-color-rgb),.2)}
+.sound-card.enabled{border-color:rgba(var(--sound-color-rgb),.7)}
+.sound-player-art[style]{background:radial-gradient(ellipse at 20% 25%,rgba(var(--sound-color-rgb),.32),transparent 75%),rgb(var(--sound-light-rgb));border-color:rgba(var(--sound-color-rgb),.18)}
+.sound-player-art .sound-symbol{background:rgba(255,255,255,.35)}
+:root[data-theme=dark] .sound-card .sound-symbol,:root[data-theme=dark] .recent-sound .sound-symbol,:root[data-theme=dark] .sound-player-art .sound-symbol,:root[data-theme=dark] .mix-mini-icon[style]{background:rgba(var(--sound-color-rgb),.22);color:rgb(var(--sound-light-rgb))}
+:root[data-theme=dark] .sound-player-art[style]{background:radial-gradient(ellipse at 20% 25%,rgba(var(--sound-color-rgb),.3),transparent 80%),#221e25}
+@media(prefers-color-scheme:dark){
+ :root:not([data-theme=light]) .sound-card .sound-symbol,:root:not([data-theme=light]) .recent-sound .sound-symbol,:root:not([data-theme=light]) .sound-player-art .sound-symbol,:root:not([data-theme=light]) .mix-mini-icon[style]{background:rgba(var(--sound-color-rgb),.22);color:rgb(var(--sound-light-rgb))}
+ :root:not([data-theme=light]) .sound-player-art[style]{background:radial-gradient(ellipse at 20% 25%,rgba(var(--sound-color-rgb),.3),transparent 80%),#221e25}
+}
