@@ -4,7 +4,7 @@
 .artwork-clouds{position:absolute;inset:0;overflow:hidden;z-index:-1;pointer-events:none}
 .artwork-cloud{position:absolute;display:block;border-radius:50%;background:radial-gradient(ellipse at center,rgba(var(--art-color-rgb),.55),rgba(var(--art-color-rgb),.28) 32%,rgba(var(--art-color-rgb),0) 70%)}
 .artwork-cloud:nth-child(even){background:radial-gradient(ellipse at center,rgba(255,255,255,.9),rgba(255,255,255,.4) 35%,rgba(255,255,255,0) 72%)}
-.category-station-art .artwork-name{position:relative;z-index:1;display:block;transform:rotate(var(--art-tilt));font-family:Manrope,sans-serif;font-weight:800;font-size:clamp(22px,3vw,38px);font-size:clamp(22px,14cqi,46px);line-height:1.08;letter-spacing:-.055em;overflow-wrap:anywhere;text-wrap:balance;max-width:100%;white-space:normal}
+.category-station-art .artwork-name{position:relative;z-index:1;display:block;font-family:Manrope,sans-serif;font-weight:800;font-size:clamp(22px,3vw,38px);font-size:clamp(22px,14cqi,46px);line-height:1.08;letter-spacing:-.055em;overflow-wrap:anywhere;text-wrap:balance;max-width:100%;white-space:normal}
 .artwork-orbit{position:absolute;left:var(--art-orbit-left);top:var(--art-orbit-top);width:var(--art-orbit-size);height:var(--art-orbit-size);border:1px solid currentColor;border-radius:50%;opacity:.16;pointer-events:none}
 .artwork-tagline{position:absolute;z-index:1;bottom:8%;left:22%;right:22%;font-size:8px;font-size:clamp(7px,2.8cqi,10px);line-height:1.5;letter-spacing:.15em;text-transform:uppercase;opacity:.8;text-wrap:balance}
 .category-station-art.small{padding:5px}

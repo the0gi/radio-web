@@ -47,7 +47,6 @@ export function artworkStyleForStation(station: Station): ArtworkStyle {
  const orbits = [[22, 26, 145], [-66, 18, 148], [18, -67, 152], [-48, -72, 155]];
  const [left, top, size] = orbits[seed % orbits.length];
  return {
-  '--art-tilt': `${[-7, -5, -3, 3, 5, 7][seed % 6]}deg`,
   '--art-orbit-left': `${left}%`,
   '--art-orbit-top': `${top}%`,
   '--art-orbit-size': `${size}%`,

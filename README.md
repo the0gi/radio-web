@@ -65,7 +65,7 @@ Favorites has separate Radio stations and Sounds sections, independent of browse
 
 ## Category artwork and player motion
 
-Station covers share their category color palette, with deterministic two-to-four soft circles for variation across stations. Small covers reuse the composition, and the mini player overlays its current cover color at 14% opacity (including ambient sounds). Artwork supports light and dark appearance. Covers include a thin circular outline in varied positions, gently rotated station names, and short editorial taglines in place of the category label. These captions are design copy, not verified broadcaster slogans. The expanded player uses the same 14% cover tint as the mini player.
+Station covers share their category color palette, with deterministic two-to-four soft circles for variation across stations. Small covers reuse the composition, and the mini player overlays its current cover color at 14% opacity (including ambient sounds). Artwork supports light and dark appearance. Covers include a thin circular outline in varied positions, straight station names, and short editorial taglines in place of the category label. These captions are design copy, not verified broadcaster slogans. The expanded player uses the same 14% cover tint as the mini player.
 
 Opening the player moves the cover from the mini player to a larger cover (up to 400 px) in a 250 ms ease-out transition, reversed on close. Reduced-motion preferences skip the transition. The song row shows only `Title · Artist`; overflowing text pans left at 30 px/s with reading pauses, and pauses on hover or keyboard focus. Metadata availability remains dependent on broadcaster support.
 
